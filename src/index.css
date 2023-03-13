@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Mpntserrat:wght@400;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap");
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'); */
+
+/* MEGA MENU */
+@layer components {
+    .menu-item {
+        @apply p-4 inline-block border-b-4 border-white hover:border-black;
+    }
+
+    .mega-sub-item{
+        @apply block p-2 hover:font-semibold tracking-tight cursor-pointer text-sm font-normal capitalize;
+    }
+
+    .mega-sub-item-title {
+        @apply block mt-4 uppercase;
+    }
+}
+/* MEGA MENU END */
+
+.ReactCollapse--collapse {
+    @apply transition-all
+  }
